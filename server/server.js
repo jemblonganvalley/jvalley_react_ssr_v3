@@ -7,6 +7,9 @@ import ReactDOMServer from "react-dom/server"
 import App from "../src/App.jsx"
 import fs from "fs"
 
+//constant
+const PORT = process.env.PORT || 5000
+
 //MIDDLEWARE
 app.use(express.json({ limit: "100mb" }))
 app.use(express.urlencoded({ extended: false }))
@@ -34,6 +37,6 @@ app.use("^/$", (req, res, next) => {
 app.use(express.static(path.resolve(__dirname, "../build/")))
 
 //LISTENER
-app.listen(5000, () => {
-	console.log(`listen port PORT`)
+app.listen(PORT, () => {
+	console.log(`listen port PORT ${PORT}`)
 })

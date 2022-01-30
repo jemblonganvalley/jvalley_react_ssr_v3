@@ -1,3 +1,7 @@
+/**
+ * Konfigurasi Babel untuk express js
+ */
+
 require("ignore-styles")
 
 require("@babel/register")({
