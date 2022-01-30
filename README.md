@@ -4,6 +4,11 @@ _selastio fadli_
 
 Proses ini akan memanfaatkan fitur react bernama **ReactDOMServer** dari package **react-dom** yang akan kita jalankan di sisi server express.
 
+- [React server side rendering dengan express js v-3](#react-server-side-rendering-dengan-express-js-v-3)
+  - [Installasi](#installasi)
+  - [Build](#build)
+  - [Jalankan di sisi server](#jalankan-di-sisi-server)
+
 ## Installasi
 
 Silakan clone repo dan lakukan proses installasi
@@ -25,7 +30,7 @@ dan Folder _build_ akan terbentuk. Ketika proses build berhasil, silakan lanjut 
 
 ## Jalankan di sisi server
 
-Untul menjalankan di sisi server, silakan kita ketik
+Untuk menjalankan di sisi server, silakan kita ketik
 `npm run ssr`
 dan silakan lihat browser pada port **5000**
 
